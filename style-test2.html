@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Style Test Rule Set</title>
+	<style type="text/css">
+		h1{
+			font-size: 30px;
+			color:salmon;
+		}
+
+		h2{
+			font-size: 20px;
+			color:red;
+		}
+
+		.big{
+			font-size: 60px
+		}
+
+		.uppercase{
+			text-transform: uppercase;
+		}
+
+		.big.uppercase{
+			color: navy;
+		}
+
+		span{
+			color: violet;
+		}
+
+		h1 span{
+			font-size: 60px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<span>Span Element(Copies the heading its in or looks default)</span>
+	<h1 class= uppercase>Heading 1 - 1</h1>
+	<h1 class="big">Heading 1 - 2</h1>
+	<h1><span>Heading 1</span> - 3</h1>
+	<h2 class="big uppercase">Heading 2 - 1</h2>
+	<h2>Heading 2 - 2</h2>
+	<h2>Heading 2 - 3</h2>
+</body>
+
+</html>
